@@ -9,6 +9,6 @@ var r=require("./bundle-url").getBundleURL;function e(r){Array.isArray(r)||(r=[r
 },{"./bundle-url":"IC3c"}],"PzH6":[function(require,module,exports) {
 module.exports=function(t){return fetch(t).then(function(t){return t.text()})};
 },{}],0:[function(require,module,exports) {
-var b=require("fiHL");b.register("html",require("PzH6"));b.load([["01-bbc-covid-india-testkit.41ecda61.html","ojD1"],["02-ozone-is-healing.f93fb53d.html","vmsu"],["02-who-headline.5ddaf2ce.html","y96O"]]).then(function(){require("epB2");});
+var b=require("fiHL");b.register("html",require("PzH6"));b.load([["01-bbc-covid-india-testkit.41ecda61.html","ojD1"],["02-ozone-is-healing.f7e6a367.html","vmsu"],["02-who-headline.5ddaf2ce.html","y96O"]]).then(function(){require("epB2");});
 },{}]},{},[0], null)
 //# sourceMappingURL=/main.957548e8.js.map
