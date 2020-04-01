@@ -1,5 +1,5 @@
 import news from "./news/*.html";
-
+import whofooter from "./02-who-headline.html";
 $(function() {
 	
 	var lastUpdate = document.getElementById('last-update');
@@ -17,8 +17,10 @@ $(function() {
 	}
 	
 	var $news = $('#news');
-	for (const item in news) {
-		$news.append(news[item]);
+	const newkeys = Object.keys(news);
+	for (let i = newkeys.length; i >= 0; i--) {
+		$news.append(news[newkeys[i]]);
 		$news.append($('<hr />',{class:'hr'}));
 	}
+	$news.append(whofooter);
 });
