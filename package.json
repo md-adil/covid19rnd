@@ -1,5 +1,10 @@
 {
 	"scripts": {
-		"start": "python3 -m http.server 5000"
+		"start": "parcel src/index.html",
+		"build": "NODE_ENV=development parcel build src/index.html --out-dir .",
+		"clean": "rm *.html *.css *.js *.map"
+	},
+	"devDependencies": {
+		"cssnano": "^4.1.10"
 	}
 }
